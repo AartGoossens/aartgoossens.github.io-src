@@ -1,0 +1,6 @@
+beautifulsoup4==4.6.0
+cssutils==1.0.2
+Markdown==2.6.11
+pelican==3.7.1
+Pillow==5.1.0
+pysvg-py3==0.2.2.post1
