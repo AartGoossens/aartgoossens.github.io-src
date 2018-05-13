@@ -32,13 +32,12 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = True
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-PLUGIN_PATHS=['./plugins']
+# RELATIVE_URLS = True
+PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = [
-    "render_math",
-    "better_codeblock_line_numbering",
-    "better_figures_and_images",
+    'render_math',
+    'better_codeblock_line_numbering',
+    'better_figures_and_images',
 ]
 
 MATH_JAX = {
