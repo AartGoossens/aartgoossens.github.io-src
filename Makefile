@@ -94,6 +94,6 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github: publish
-	cd $(OUTPUTDIR) && pwd && git remote -v
+	cd $(OUTPUTDIR) && git add . && git commit -m 'Site update' && git push origin master
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

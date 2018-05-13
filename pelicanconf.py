@@ -38,9 +38,15 @@ PLUGIN_PATHS=['./plugins']
 PLUGINS = [
     "render_math",
     "better_codeblock_line_numbering",
+    "better_figures_and_images",
 ]
 
 MATH_JAX = {
     'color': 'black',
-    'show_menu': True
 }
+
+STATIC_PATHS = [
+    'images',
+]
+
+RESPONSIVE_IMAGES = True
